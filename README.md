@@ -68,9 +68,3 @@ RiggingWebsite/
 - **Fonts** — loaded from Google Fonts (`Bebas Neue` + `Inter`); can be self-hosted for privacy
 
 ---
-
-## Contact
-
-- Matthew Newton — 07496 274653
-- Callum Clements — 07887 488002
-- Alex Glover — 07833 597905
