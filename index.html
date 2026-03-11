@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Rigging Company Ltd — Film, Television &amp; Commercial Rigging</title>
+  <meta name="description" content="The Rigging Company Ltd provides specialist rigging equipment and on-set expertise for film, television and commercial productions across the UK. Founded by Matthew Newton, Callum Clements and Alex Glover." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Rigging Company Ltd" />
+  <meta property="og:description" content="Specialist rigging equipment and HOD rigging services for film, television and commercial productions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=1200&q=80" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='8' fill='%23111'/><text y='.9em' font-size='72' font-family='Arial,sans-serif' font-weight='bold' fill='%23e8c96d' x='18'>R</text></svg>" />
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a class="nav__logo" href="#hero" aria-label="The Rigging Company Ltd — home">
+        The Rigging Company
+      </a>
+      <ul class="nav__links" id="navLinks">
+        <li><a class="nav__link" href="#about">About</a></li>
+        <li><a class="nav__link" href="#work">The Work</a></li>
+        <li><a class="nav__link" href="#services">Services</a></li>
+        <li><a class="nav__link" href="#productions">Productions</a></li>
+        <li><a class="nav__link nav__link--contact" href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== MOBILE MENU OVERLAY ===== -->
+  <div class="mobile-overlay" id="mobileOverlay" aria-hidden="true">
+    <ul class="mobile-overlay__links">
+      <li><a class="mobile-overlay__link" href="#about">About</a></li>
+      <li><a class="mobile-overlay__link" href="#work">The Work</a></li>
+      <li><a class="mobile-overlay__link" href="#services">Services</a></li>
+      <li><a class="mobile-overlay__link" href="#productions">Productions</a></li>
+      <li><a class="mobile-overlay__link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ===== 1. HERO ===== -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1920&q=80"
+          alt=""
+          class="hero__img"
+          fetchpriority="high"
+        />
+        <div class="hero__overlay"></div>
+      </div>
+      <div class="hero__content">
+        <p class="hero__eyebrow">Est. by industry HODs</p>
+        <h1 class="hero__title">The Rigging<br />Company Ltd</h1>
+        <p class="hero__tagline">Film, Television &amp; Commercial Rigging</p>
+      </div>
+      <a class="hero__scroll" href="#about" aria-label="Scroll to About section">
+        <span class="hero__scroll-label">Scroll</span>
+        <span class="hero__scroll-arrow" aria-hidden="true">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </span>
+      </a>
+    </section>
+
+    <!-- ===== 2. ABOUT ===== -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about__inner reveal">
+          <div class="about__text">
+            <h2 class="section-label" id="about-heading">About</h2>
+            <p class="about__lead">
+              The Rigging Company supports film, television and commercial productions with specialist rigging equipment and on-set expertise.
+            </p>
+            <p class="about__body">
+              Founded by <strong>Matthew Newton, Callum Clements and Alex Glover</strong>, all working <strong>Head of Department riggers</strong>, the company is built on years of practical experience across studio builds, location work and large-scale lighting rigs.
+            </p>
+            <p class="about__body">
+              Alongside equipment supply, the team can provide <strong>full HOD rigging services</strong>, bringing production knowledge and technical understanding to complex builds.
+            </p>
+            <p class="about__body about__body--emphasis">
+              Our approach is simple — the right equipment, prepared properly, ready for production.
+            </p>
+          </div>
+          <div class="about__image reveal reveal--delay">
+            <img
+              src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=900&q=80"
+              alt="Lighting rig on a film set"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 3. THE WORK ===== -->
+    <section class="work" id="work" aria-labelledby="work-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" id="work-heading">The Work</h2>
+          <p class="section-subtitle">
+            A selection of lighting rigs, studio builds and production setups from recent
+            <strong>film, television and commercial productions</strong>.
+          </p>
+        </div>
+      </div>
+      <div class="gallery" role="list" aria-label="Portfolio gallery">
+        <!-- Row 1 -->
+        <div class="gallery__item gallery__item--tall reveal" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?w=1200&q=80"
+            alt="Large-scale lighting rig on a film production"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Studio Build</div>
+        </div>
+        <div class="gallery__item reveal reveal--delay" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=900&q=80"
+            alt="Truss rigging system for television production"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Truss System</div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-2" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1513346940221-6f673d962e97?w=900&q=80"
+            alt="Film set lighting equipment"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Location Lighting</div>
+        </div>
+        <!-- Row 2 -->
+        <div class="gallery__item reveal" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=900&q=80"
+            alt="Commercial film production rigging setup"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Commercial Production</div>
+        </div>
+        <div class="gallery__item gallery__item--wide reveal reveal--delay" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1535016120720-40c646be5580?w=1200&q=80"
+            alt="Cinema lighting and camera rig"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Cinema Lighting</div>
+        </div>
+        <!-- Row 3 -->
+        <div class="gallery__item gallery__item--wide reveal" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1598387993441-a364f854cffd?w=1200&q=80"
+            alt="Television studio lighting build"
+            loading="lazy"
+          />
+          <div class="gallery__caption">TV Studio</div>
+        </div>
+        <div class="gallery__item reveal reveal--delay" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?w=900&q=80"
+            alt="Rigging motors and lifting systems"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Motor Systems</div>
+        </div>
+        <!-- Row 4 -->
+        <div class="gallery__item reveal" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=900&q=80"
+            alt="Film production on location"
+            loading="lazy"
+          />
+          <div class="gallery__caption">On Location</div>
+        </div>
+        <div class="gallery__item gallery__item--tall reveal reveal--delay" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=900&q=80"
+            alt="Large film lighting crane rig"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Lighting Crane</div>
+        </div>
+        <div class="gallery__item reveal reveal--delay-2" role="listitem">
+          <img
+            src="https://images.unsplash.com/photo-1616469829520-5a8de8058ccc?w=900&q=80"
+            alt="Pre-production rigging planning"
+            loading="lazy"
+          />
+          <div class="gallery__caption">Pre-Production</div>
+        </div>
+      </div>
+
+      <!-- Lightbox -->
+      <div class="lightbox" id="lightbox" role="dialog" aria-label="Image lightbox" aria-modal="true" aria-hidden="true">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+        <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+      </div>
+    </section>
+
+    <!-- ===== 4. SERVICES ===== -->
+    <section class="services" id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" id="services-heading">What We Do</h2>
+          <p class="section-subtitle">Rigging support for film and television productions including:</p>
+        </div>
+        <ul class="services__grid" aria-label="Services list">
+          <li class="services__card reveal">
+            <span class="services__number">01</span>
+            <h3 class="services__name">Structural Rigging</h3>
+          </li>
+          <li class="services__card reveal reveal--delay">
+            <span class="services__number">02</span>
+            <h3 class="services__name">Lighting Rigging</h3>
+          </li>
+          <li class="services__card reveal reveal--delay-2">
+            <span class="services__number">03</span>
+            <h3 class="services__name">Truss Systems</h3>
+          </li>
+          <li class="services__card reveal">
+            <span class="services__number">04</span>
+            <h3 class="services__name">Motors &amp; Lifting Systems</h3>
+          </li>
+          <li class="services__card reveal reveal--delay">
+            <span class="services__number">05</span>
+            <h3 class="services__name">Temporary Rigging Structures</h3>
+          </li>
+          <li class="services__card reveal reveal--delay-2">
+            <span class="services__number">06</span>
+            <h3 class="services__name">Pre-Production Rigging Planning</h3>
+          </li>
+          <li class="services__card reveal">
+            <span class="services__number">07</span>
+            <h3 class="services__name">HOD Rigging Services</h3>
+          </li>
+          <li class="services__card reveal reveal--delay">
+            <span class="services__number">08</span>
+            <h3 class="services__name">Event Services</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== 5. PRODUCTIONS ===== -->
+    <section class="productions" id="productions" aria-labelledby="productions-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <h2 class="section-title" id="productions-heading">Selected Productions</h2>
+          <p class="section-subtitle">Projects have been delivered for productions commissioned by:</p>
+        </div>
+        <div class="productions__logos reveal">
+          <span class="productions__logo">Netflix</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">Apple TV+</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">Amazon Studios</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">Sky</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">BBC</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">ITV</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">Channel 4</span>
+          <span class="productions__dot" aria-hidden="true">&bull;</span>
+          <span class="productions__logo">Disney+</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 6. CONTACT / FOOTER ===== -->
+  <footer class="footer" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand reveal">
+          <h2 class="footer__logo" id="contact-heading">The Rigging Company Ltd</h2>
+          <p class="footer__tagline">Supporting productions across the UK.</p>
+        </div>
+        <div class="footer__contacts reveal reveal--delay">
+          <h3 class="footer__contacts-title">Get In Touch</h3>
+          <ul class="footer__contact-list">
+            <li class="footer__contact">
+              <span class="footer__contact-name">Matthew Newton</span>
+              <a class="footer__contact-link" href="tel:+447496274653">07496 274653</a>
+            </li>
+            <li class="footer__contact">
+              <span class="footer__contact-name">Callum Clements</span>
+              <a class="footer__contact-link" href="tel:+447887488002">07887 488002</a>
+            </li>
+            <li class="footer__contact">
+              <span class="footer__contact-name">Alex Glover</span>
+              <a class="footer__contact-link" href="tel:+447833597905">07833 597905</a>
+            </li>
+          </ul>
+          <p class="footer__email-note">Email: <em>Company emails to be created</em>
+            <!-- TODO: Replace with real email addresses once created --></p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; <span id="year"></span> The Rigging Company Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
